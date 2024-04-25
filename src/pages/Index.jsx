@@ -15,19 +15,19 @@ const Index = () => {
           <form action="https://formsubmit.co/2a1c0dcb2462e2fd543a1e589aa91e99" method="POST">
             <FormControl id="full-name" isRequired>
               <FormLabel>Full Name</FormLabel>
-              <Input placeholder="Enter Full Name" />
+              <Input placeholder="Enter Full Name" name="FullName"/>
             </FormControl>
             <FormControl id="email" mt={4} isRequired>
               <FormLabel>Email</FormLabel>
-              <Input type="email" placeholder="Enter Email" />
+              <Input type="email" placeholder="Enter Email" name="email"/>
             </FormControl>
             <FormControl id="phone" mt={4} isRequired>
               <FormLabel>Phone</FormLabel>
-              <Input type="tel" placeholder="Enter Phone" />
+              <Input type="tel" placeholder="Enter Phone" name="tel"/>
             </FormControl>
             <FormControl id="interest" mt={4} isRequired>
               <FormLabel>Select Interest</FormLabel>
-              <Select placeholder="Select option">
+              <Select type="select" placeholder="Select option" name="interest">
                 <option>I am looking for mentorship and opportunities</option>
                 <option>I am looking to donate time or activities</option>
               </Select>
