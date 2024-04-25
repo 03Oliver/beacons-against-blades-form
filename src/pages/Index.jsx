@@ -12,7 +12,7 @@ const Index = () => {
           <Text mb={4} fontSize="lg" textAlign="center">
             Application Form
           </Text>
-          <form action="https://formsubmit.co/oliverbonallack@gmail.com" method="POST">
+          <form action="https://formsubmit.co/2a1c0dcb2462e2fd543a1e589aa91e99" method="POST">
             <FormControl id="full-name" isRequired>
               <FormLabel>Full Name</FormLabel>
               <Input placeholder="Enter Full Name" />
