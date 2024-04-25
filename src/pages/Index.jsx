@@ -27,7 +27,7 @@ const Index = () => {
             </FormControl>
             <FormControl id="interest" mt={4} isRequired>
               <FormLabel>Select Interest</FormLabel>
-              <Select type="select" placeholder="Select option" name="interest">
+              <Select placeholder="Select option" name="interest">
                 <option>I am looking for mentorship and opportunities</option>
                 <option>I am looking to donate time or activities</option>
               </Select>
