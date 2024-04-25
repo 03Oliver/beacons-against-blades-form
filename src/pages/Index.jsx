@@ -10,7 +10,7 @@ const Index = () => {
             Beacons Against Blades
           </Heading>
           <Text mb={4} fontSize="lg" textAlign="center">
-            Application Form
+            Bristol Pilot - Application Form
           </Text>
           <form action="https://formspree.io/f/myyrlabn" method="POST">
             <FormControl id="full-name" isRequired>
